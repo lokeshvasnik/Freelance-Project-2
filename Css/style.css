@@ -42,6 +42,29 @@ body {
     background: var(--secondary-color);
 }
 
+/* Card */
+/* Code for next video */
+.cardBox {
+    border: none;
+    background: #2d2c2d;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    color: var(--pure);
+    cursor: pointer;
+    margin: 20px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.cardBox:hover {
+    translate: 0px -11px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card__img {
+    width: 126px;
+    height: 126px;
+}
+
 /* Section 2 */
 #section__two {
     background: var(--secondary-color);
